@@ -49,6 +49,12 @@ router.post("/songs", async(req, res) =>{
     }
 })
 
+router.post("/songs", (req, res) => {
+    const newSong = req.body;
+    // Logic to save the song goes here
+    res.status(201).json(newSong);
+});
+
 //update is to update an existing record/resource/database entry..it uses a put request
 router.put("/songs/:id", async (req, res) =>{
     //first we need to find and update the song the frontend wants us to update.
