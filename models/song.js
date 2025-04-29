@@ -8,4 +8,4 @@ const Song = db.model("Song",{
     genre: [String]
 })
 
-module.exports = Song;
+module.exports = Song

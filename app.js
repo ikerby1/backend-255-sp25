@@ -5,7 +5,7 @@ var cors = require('cors')
 //activate or tell this app variable to be an express server
 
 const bodyParser = require('body-parser')
-const Song = require("./models/songs")
+const Song = require("./models/song")
 const app = express()
 app.use(cors())
 
