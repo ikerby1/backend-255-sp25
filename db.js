@@ -1,4 +1,4 @@
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://sdev255:password255@SongDB.hw1e0cp.mongodb.net/?retryWrites=true&w=majority",{useNewUrlParser: true})
+mongoose.connect("mongodb+srv://sdev255ik:mongoose255@cluster0.ogoxavs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{useNewUrlParser: true})
 
 module.exports = mongoose
